@@ -14,7 +14,7 @@ public class Order {
     @Embedded
     private Orderer orderer;
 
-//    @Embedded
-//    private ShippingInfo shippingInfo;
+    @Embedded
+    private ShippingInfo shippingInfo;
 
 }
